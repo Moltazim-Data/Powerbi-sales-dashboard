@@ -1,0 +1,14 @@
+OrderDate,Country,Product,Category,Sales,Quantity
+2023-01-05,Germany,Laptop,Technology,1200,2
+2023-01-12,France,Phone,Technology,800,4
+2023-02-03,Germany,Tablet,Technology,600,3
+2023-02-15,Austria,Laptop,Technology,1200,1
+2023-03-01,France,Headphones,Accessories,150,5
+2023-03-18,Germany,Monitor,Technology,300,2
+2023-04-07,Austria,Keyboard,Accessories,100,4
+2023-04-22,France,Mouse,Accessories,60,6
+2023-05-10,Germany,Laptop,Technology,1200,1
+2023-05-25,Austria,Tablet,Technology,600,2
+2023-06-14,France,Phone,Technology,800,3
+2023-06-30,Germany,Monitor,Technology,300,2
+
