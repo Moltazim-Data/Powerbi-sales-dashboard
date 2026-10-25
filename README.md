@@ -1,78 +1,33 @@
-# 📊 Sales Performance Dashboard (Power BI)
+# Sales Performance Dashboard — Power BI
 
-## 📌 Project Overview
-This project presents an **interactive sales performance dashboard** built using **Power BI**.  
-The dashboard provides a clear overview of business performance by visualizing key sales metrics, trends, and comparisons.
+This repository contains a sample sales dataset and a dashboard screenshot for a Power BI portfolio exercise.
 
-The goal of this project is to demonstrate **business intelligence and data visualization skills** suitable for a **junior data analyst role**.
+## Included assets
 
----
+- `data/sales.csv` — sample sales rows with date, country, product, category, sales amount, and quantity.
+- `dashboard/dashboard_overview.png` — static screenshot/preview.
 
-## 🎯 Objectives
-- Analyze overall sales performance
-- Track sales trends over time
-- Compare sales across countries and products
-- Enable interactive filtering for deeper insights
+## Intended analysis
 
----
+- Sales amount by month
+- Sales amount by country
+- Product/category comparison
+- Filters for category and other relevant dimensions
 
-## 📈 Key Metrics (KPIs)
-- **Total Sales**
-- **Total Quantity Sold**
+## Metric notes
 
----
+Treat the `Sales` field as the supplied sales amount. Do not multiply it by quantity unless the source data dictionary establishes that `Sales` is a unit price. Document the dataset source, currency, time coverage, and whether amounts represent gross sales, net sales, or another measure before interpreting the dashboard.
 
-## 📊 Dashboard Visuals
-- **Sales Trend Over Time** (Line Chart)
-- **Sales by Country** (Bar Chart)
-- **Top Products by Sales** (Column Chart)
-- **Category Filter** (Slicer for interactivity)
+## Power BI status
 
----
+A screenshot is not an interactive report file. This repository does not currently document a native `.pbix` artifact or a published Power BI service report. To complete the project, open `data/sales.csv` in Power BI Desktop, build the visuals and slicers, reconcile totals to simple source-data calculations, save the `.pbix` locally, and add a genuine screenshot/export if you want to share it.
 
-## 🛠 Tools & Technologies
-- **Power BI**
-- **CSV Dataset**
-- **Git & GitHub**
+## Suggested validation checklist
 
----
+- [ ] Confirm date and numeric data types.
+- [ ] Check blank values and duplicate rows.
+- [ ] Reconcile total sales and quantity against the source.
+- [ ] Confirm chart totals agree with the selected filters.
+- [ ] Add the source and licensing details for the dataset.
 
-## 📂 Project Structure
-
-```
-powerbi-sales-dashboard/
-│
-├── data/
-│ └── sales.csv
-│
-├── dashboard/
-│ └── dashboard_overview.png
-│
-└── README.md
-```
-
----
-
-## 📊 Dashboard Preview
-![Dashboard Overview](dashboard/dashboard_overview.png)
-
----
-
-## 🧠 Insights Gained
-- Identified top-performing countries and products
-- Observed sales fluctuations over time
-- Enabled dynamic analysis using category-based filtering
-
----
-
-## 🚀 Outcome
-This project showcases the ability to:
-- Build interactive dashboards
-- Translate raw data into business insights
-- Communicate results visually for decision-making
-
----
-
-## 👤 Author
-**Abdelhamid Moltazim**  
-Data Analyst
+This is a practice portfolio project. Do not claim an interactive or deployed dashboard until that artifact exists and has been tested.
