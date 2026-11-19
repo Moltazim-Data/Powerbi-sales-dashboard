@@ -1,33 +1,28 @@
 # Sales Performance Dashboard — Power BI
 
-This repository contains a sample sales dataset and a dashboard screenshot for a Power BI portfolio exercise.
+A sales reporting practice project built around a sample dataset. The repository contains source data and a static dashboard preview to guide a Power BI report build.
 
-## Included assets
+## Dataset
+`data/sales.csv` includes sample sales records with date, country, product, category, sales amount and quantity.
 
-- `data/sales.csv` — sample sales rows with date, country, product, category, sales amount, and quantity.
-- `dashboard/dashboard_overview.png` — static screenshot/preview.
+## Dashboard preview
+`dashboard/dashboard_overview.png` is a static image—not an interactive report.
 
-## Intended analysis
-
-- Sales amount by month
-- Sales amount by country
-- Product/category comparison
-- Filters for category and other relevant dimensions
+## Report goals
+- Monthly sales trend
+- Country comparison
+- Product and category performance
+- Filters for relevant business dimensions
 
 ## Metric notes
+Use the supplied `Sales` value as the sales amount; do not multiply it by quantity unless the source definition confirms that Sales is a unit price. Before interpreting the report, document dataset source, currency, date coverage and gross/net meaning.
 
-Treat the `Sales` field as the supplied sales amount. Do not multiply it by quantity unless the source data dictionary establishes that `Sales` is a unit price. Document the dataset source, currency, time coverage, and whether amounts represent gross sales, net sales, or another measure before interpreting the dashboard.
+## Current status
+This repo includes the dataset and preview image. A native Power BI `.pbix` and published report are not included yet.
 
-## Power BI status
-
-A screenshot is not an interactive report file. This repository does not currently document a native `.pbix` artifact or a published Power BI service report. To complete the project, open `data/sales.csv` in Power BI Desktop, build the visuals and slicers, reconcile totals to simple source-data calculations, save the `.pbix` locally, and add a genuine screenshot/export if you want to share it.
-
-## Suggested validation checklist
-
-- [ ] Confirm date and numeric data types.
-- [ ] Check blank values and duplicate rows.
-- [ ] Reconcile total sales and quantity against the source.
-- [ ] Confirm chart totals agree with the selected filters.
-- [ ] Add the source and licensing details for the dataset.
-
-This is a practice portfolio project. Do not claim an interactive or deployed dashboard until that artifact exists and has been tested.
+## Validation checklist
+- Confirm data types and missing values.
+- Reconcile totals with source rows.
+- Ensure filtered chart totals match the selected data.
+- Document source and license.
+- Save the completed report and add a genuine screenshot/export.
